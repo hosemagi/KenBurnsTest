@@ -1,0 +1,325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5AEDBDE41725F970005E9A4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEDBDE31725F970005E9A4E /* UIKit.framework */; };
+		5AEDBDE61725F970005E9A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEDBDE51725F970005E9A4E /* Foundation.framework */; };
+		5AEDBDE81725F970005E9A4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEDBDE71725F970005E9A4E /* CoreGraphics.framework */; };
+		5AEDBDEA1725F970005E9A4E /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AEDBDE91725F970005E9A4E /* CoreData.framework */; };
+		5AEDBDF01725F971005E9A4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDBDEE1725F971005E9A4E /* InfoPlist.strings */; };
+		5AEDBDF21725F971005E9A4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDBDF11725F971005E9A4E /* main.m */; };
+		5AEDBDF61725F971005E9A4E /* CSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDBDF51725F971005E9A4E /* CSAppDelegate.m */; };
+		5AEDBDF81725F971005E9A4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDBDF71725F971005E9A4E /* Default.png */; };
+		5AEDBDFA1725F971005E9A4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDBDF91725F971005E9A4E /* Default@2x.png */; };
+		5AEDBDFC1725F971005E9A4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDBDFB1725F971005E9A4E /* Default-568h@2x.png */; };
+		5AEDBDFF1725F971005E9A4E /* KenBurns.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDBDFD1725F971005E9A4E /* KenBurns.xcdatamodeld */; };
+		5AEDBE071725F993005E9A4E /* KenBurnsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDBE061725F993005E9A4E /* KenBurnsViewController.m */; };
+		5AEDBE091725FA88005E9A4E /* coffee.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5AEDBE081725FA88005E9A4E /* coffee.jpg */; };
+		5AEDBE0C17260004005E9A4E /* HUKenBurnsImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEDBE0B17260003005E9A4E /* HUKenBurnsImageView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5AEDBDE01725F970005E9A4E /* KenBurns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KenBurns.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AEDBDE31725F970005E9A4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5AEDBDE51725F970005E9A4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5AEDBDE71725F970005E9A4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5AEDBDE91725F970005E9A4E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5AEDBDED1725F971005E9A4E /* KenBurns-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KenBurns-Info.plist"; sourceTree = "<group>"; };
+		5AEDBDEF1725F971005E9A4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5AEDBDF11725F971005E9A4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5AEDBDF31725F971005E9A4E /* KenBurns-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KenBurns-Prefix.pch"; sourceTree = "<group>"; };
+		5AEDBDF41725F971005E9A4E /* CSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSAppDelegate.h; sourceTree = "<group>"; };
+		5AEDBDF51725F971005E9A4E /* CSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSAppDelegate.m; sourceTree = "<group>"; };
+		5AEDBDF71725F971005E9A4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		5AEDBDF91725F971005E9A4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		5AEDBDFB1725F971005E9A4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		5AEDBDFE1725F971005E9A4E /* KenBurns.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KenBurns.xcdatamodel; sourceTree = "<group>"; };
+		5AEDBE051725F993005E9A4E /* KenBurnsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KenBurnsViewController.h; sourceTree = SOURCE_ROOT; };
+		5AEDBE061725F993005E9A4E /* KenBurnsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KenBurnsViewController.m; sourceTree = SOURCE_ROOT; };
+		5AEDBE081725FA88005E9A4E /* coffee.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = coffee.jpg; sourceTree = "<group>"; };
+		5AEDBE0A17260003005E9A4E /* HUKenBurnsImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HUKenBurnsImageView.h; sourceTree = "<group>"; };
+		5AEDBE0B17260003005E9A4E /* HUKenBurnsImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HUKenBurnsImageView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5AEDBDDD1725F970005E9A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEDBDE41725F970005E9A4E /* UIKit.framework in Frameworks */,
+				5AEDBDE61725F970005E9A4E /* Foundation.framework in Frameworks */,
+				5AEDBDE81725F970005E9A4E /* CoreGraphics.framework in Frameworks */,
+				5AEDBDEA1725F970005E9A4E /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5AEDBDD71725F970005E9A4E = {
+			isa = PBXGroup;
+			children = (
+				5AEDBDEB1725F971005E9A4E /* KenBurns */,
+				5AEDBDE21725F970005E9A4E /* Frameworks */,
+				5AEDBDE11725F970005E9A4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5AEDBDE11725F970005E9A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AEDBDE01725F970005E9A4E /* KenBurns.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AEDBDE21725F970005E9A4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5AEDBDE31725F970005E9A4E /* UIKit.framework */,
+				5AEDBDE51725F970005E9A4E /* Foundation.framework */,
+				5AEDBDE71725F970005E9A4E /* CoreGraphics.framework */,
+				5AEDBDE91725F970005E9A4E /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AEDBDEB1725F971005E9A4E /* KenBurns */ = {
+			isa = PBXGroup;
+			children = (
+				5AEDBE081725FA88005E9A4E /* coffee.jpg */,
+				5AEDBDF41725F971005E9A4E /* CSAppDelegate.h */,
+				5AEDBDF51725F971005E9A4E /* CSAppDelegate.m */,
+				5AEDBE051725F993005E9A4E /* KenBurnsViewController.h */,
+				5AEDBE061725F993005E9A4E /* KenBurnsViewController.m */,
+				5AEDBDFD1725F971005E9A4E /* KenBurns.xcdatamodeld */,
+				5AEDBE0A17260003005E9A4E /* HUKenBurnsImageView.h */,
+				5AEDBE0B17260003005E9A4E /* HUKenBurnsImageView.m */,
+				5AEDBDEC1725F971005E9A4E /* Supporting Files */,
+			);
+			path = KenBurns;
+			sourceTree = "<group>";
+		};
+		5AEDBDEC1725F971005E9A4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AEDBDED1725F971005E9A4E /* KenBurns-Info.plist */,
+				5AEDBDEE1725F971005E9A4E /* InfoPlist.strings */,
+				5AEDBDF11725F971005E9A4E /* main.m */,
+				5AEDBDF31725F971005E9A4E /* KenBurns-Prefix.pch */,
+				5AEDBDF71725F971005E9A4E /* Default.png */,
+				5AEDBDF91725F971005E9A4E /* Default@2x.png */,
+				5AEDBDFB1725F971005E9A4E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5AEDBDDF1725F970005E9A4E /* KenBurns */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5AEDBE021725F971005E9A4E /* Build configuration list for PBXNativeTarget "KenBurns" */;
+			buildPhases = (
+				5AEDBDDC1725F970005E9A4E /* Sources */,
+				5AEDBDDD1725F970005E9A4E /* Frameworks */,
+				5AEDBDDE1725F970005E9A4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KenBurns;
+			productName = KenBurns;
+			productReference = 5AEDBDE01725F970005E9A4E /* KenBurns.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5AEDBDD81725F970005E9A4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CS;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Preston Lewis";
+			};
+			buildConfigurationList = 5AEDBDDB1725F970005E9A4E /* Build configuration list for PBXProject "KenBurns" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5AEDBDD71725F970005E9A4E;
+			productRefGroup = 5AEDBDE11725F970005E9A4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5AEDBDDF1725F970005E9A4E /* KenBurns */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5AEDBDDE1725F970005E9A4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEDBDF01725F971005E9A4E /* InfoPlist.strings in Resources */,
+				5AEDBDF81725F971005E9A4E /* Default.png in Resources */,
+				5AEDBDFA1725F971005E9A4E /* Default@2x.png in Resources */,
+				5AEDBDFC1725F971005E9A4E /* Default-568h@2x.png in Resources */,
+				5AEDBE091725FA88005E9A4E /* coffee.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5AEDBDDC1725F970005E9A4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEDBDF21725F971005E9A4E /* main.m in Sources */,
+				5AEDBDF61725F971005E9A4E /* CSAppDelegate.m in Sources */,
+				5AEDBDFF1725F971005E9A4E /* KenBurns.xcdatamodeld in Sources */,
+				5AEDBE071725F993005E9A4E /* KenBurnsViewController.m in Sources */,
+				5AEDBE0C17260004005E9A4E /* HUKenBurnsImageView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5AEDBDEE1725F971005E9A4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5AEDBDEF1725F971005E9A4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5AEDBE001725F971005E9A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5AEDBE011725F971005E9A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5AEDBE031725F971005E9A4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KenBurns/KenBurns-Prefix.pch";
+				INFOPLIST_FILE = "KenBurns/KenBurns-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5AEDBE041725F971005E9A4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KenBurns/KenBurns-Prefix.pch";
+				INFOPLIST_FILE = "KenBurns/KenBurns-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5AEDBDDB1725F970005E9A4E /* Build configuration list for PBXProject "KenBurns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEDBE001725F971005E9A4E /* Debug */,
+				5AEDBE011725F971005E9A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5AEDBE021725F971005E9A4E /* Build configuration list for PBXNativeTarget "KenBurns" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5AEDBE031725F971005E9A4E /* Debug */,
+				5AEDBE041725F971005E9A4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5AEDBDFD1725F971005E9A4E /* KenBurns.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5AEDBDFE1725F971005E9A4E /* KenBurns.xcdatamodel */,
+			);
+			currentVersion = 5AEDBDFE1725F971005E9A4E /* KenBurns.xcdatamodel */;
+			path = KenBurns.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5AEDBDD81725F970005E9A4E /* Project object */;
+}
